@@ -41,6 +41,11 @@ def sum_array(array)
 end
 
 
+def add_s(array)
+  array.collet do |plural|
+    plural.
+    
+
 
 
 
