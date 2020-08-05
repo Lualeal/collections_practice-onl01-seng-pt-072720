@@ -7,9 +7,15 @@ def sort_array_des(array)
 end
 
 
-def sort_array_char_count(array)
-  count = []
-  array.sort do |count| 
-    count << 
+#def sort_array_char_count(array)
+ # count = []
+  #array.sort do |count| 
+   # count << 
+    
+  def sort_array_char_count(array)
+    array.sort do |left, right|
+    left.length <=> right.length
+    end
+  end
     
     
