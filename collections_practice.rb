@@ -3,7 +3,7 @@ def sort_array_asc(array)
 end 
 
 def sort_array_des(array)
-  array.sort do | left, right |
-  right <=> left 
-  end 
+ def sort_array_desc(integers)
+  integers.sort{|a,b| b<=>a}
+end
 end 
