@@ -3,6 +3,7 @@ def sort_array_asc(array)
 end 
 
 def sort_array_des(array)
-  array.sort | left, right |
+  array.sort do | left, right |
   right <=> left 
+  end 
 end 
