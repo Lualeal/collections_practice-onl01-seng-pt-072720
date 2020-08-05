@@ -5,4 +5,3 @@ end
 def sort_array_des(array)
   array.sort{|a,b| b<=>a}
 end
-end 
