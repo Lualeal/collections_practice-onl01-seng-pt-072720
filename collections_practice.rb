@@ -15,5 +15,6 @@ end
    end
  end
     
-    
+  def swap_elements(array)
+    array.sort do ||
     
